@@ -6,7 +6,6 @@ function dataHandling2(input) {
     console.log(input);
     var tanggal = (input.slice(3,4)).toString();
 
-    // split bulan dengan "/" dan tampilkan nama bulan dengan switch case
     var split = tanggal.split("/");
     var bulan = split[1];
 
@@ -34,7 +33,6 @@ function dataHandling2(input) {
 
     console.log(split[2] +" - "+ split[1] + " - " + split[0])
 
-    //hapus kelebihan nama
     var nama = (input.slice(1,2)).toString();
     console.log(nama.slice(0,15));
 }
